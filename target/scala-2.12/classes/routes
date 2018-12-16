@@ -1,0 +1,13 @@
+GET         /                                      controllers.SystemController.healthCheck
+
+GET         /api/v1/master/:id                     controllers.MasterController.getMaster(id: Int)
+POST        /api/v1/master                         controllers.MasterController.createMaster
+PUT         /api/v1/master/:masterId               controllers.MasterController.assignPet(masterId: Int)
+
+GET         /api/v1/pet/:pid                       controllers.PetController.getPet(pid: Int)
+POST        /api/v1/pet                            controllers.PetController.createPet
+GET         /api/v1/pet/:masterId/:roleName        controllers.PetController.getSuitable(masterId: Int, roleName: String)
+PUT         /api/v1/pet/:petId                     controllers.PetController.assignRoles(petId: Int)
+
+GET         /api/v1/roles                          controllers.RoleController.allRoles
+POST        /api/v1/roles                          controllers.RoleController.createRole

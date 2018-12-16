@@ -1,0 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Dconfig.file=conf/application.test.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 4 initial tasks for 4 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(integration.business.CreateEntitiesTest, sbt.ForkMain$SubclassFingerscan@57e1862d, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCreateEntitiesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEntities[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be created via controllers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return bad request in case of invalid json[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must return error in case of error[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(integration.IntegrationTest, sbt.ForkMain$SubclassFingerscan@525e3627, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mIntegrationTest:[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(integration.repository.PetRepositoryTest, sbt.ForkMain$SubclassFingerscan@134582c1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPetRepositoryTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPet[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be saved[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must have role attached[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must by role and master be fetched[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(integration.business.SuitableAssigmentsTest, sbt.ForkMain$SubclassFingerscan@63df46ce, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSuitableAssigmentsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPets[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be assigned to masters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- must be assigned to roles[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 223 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 8, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 8, Failed 0, Errors 0, Passed 8[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	integration.business.SuitableAssigmentsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	integration.repository.PetRepositoryTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	integration.IntegrationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	integration.business.CreateEntitiesTest[0m
