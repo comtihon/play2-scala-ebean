@@ -1,6 +1,0 @@
-#Successful Tests
-#Thu Dec 13 09:54:26 CET 2018
-integration.IntegrationTest=1544691265216
-integration.repository.PetRepositoryTest=1544691266190
-integration.business.CreateEntitiesTest=1544691265060
-integration.business.SuitableAssigmentsTest=1544691266815

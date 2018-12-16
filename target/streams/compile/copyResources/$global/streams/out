@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/logback.xml,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/logback.xml)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/application.test.conf,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/application.test.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/application.conf,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/application.conf)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/evolutions,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/evolutions)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/evolutions/default,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/evolutions/default)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/evolutions/default/1.sql,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/evolutions/default/1.sql)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	(/Users/vtikhonov/github/play2-scala-ebean/conf/routes,/Users/vtikhonov/github/play2-scala-ebean/target/scala-2.12/classes/routes)[0m
